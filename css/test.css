@@ -40,6 +40,7 @@ width: 275px;
 }
 .third {
 width: 500px;
+padding-right: 13px;
 }
 .third p {
 padding-right: 25px;
@@ -68,6 +69,7 @@ display: inline-block;
 background-color: #777777;
 width: 185px;
 margin-top: 20px;
+padding-bottom: 68px;
 }
 .left .rectangle ul li{
 list-style-type: none;
