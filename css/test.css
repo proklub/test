@@ -15,21 +15,40 @@ padding-left: 20px;
 font-size: 15px; 
 font-weight: bold;
 }
+hr {
+margin-top: 22px;
+margin-bottom: 22px;
+}
+.container {
+margin-left: auto;
+margin-right: auto;
+width: 960px;
+}
 .square {
 background-color: #777777;
 height: 108px;
 display: inline-block;
 margin: 25px 25px 20px 0;
+vertical-align: top;
+}
+.square:last-child {
+margin-right: 0;
 }
 
-.first {
-width: 123px;
-}
 .second {
-width: 277px;
+width: 275px;
 }
 .third {
-width: 511px;
+width: 500px;
+}
+.third p {
+padding-right: 25px;
+text-align: right;
+margin-top: 15px;
+text-decoration: underline;
+}
+.text {
+text-decoration: underline;
 }
 hr {
 background-color: #696969;
@@ -47,25 +66,31 @@ display: inline-block;
 }
 .rectangle {
 background-color: #777777;
-height: 335px;
 width: 185px;
 margin-top: 20px;
-
 }
-
+.left .rectangle ul li{
+list-style-type: none;
+color: white;
+width: 150px;
+margin-bottom: 10px;
+font-size: 14px;
+}
+.left .rectangle ul {
+padding-left: 10px;
+}
 .rectangle-sec {
 height: 208px;
 width: 753px;
 background-color: #dcdcdc;
 margin-left: 24px;
 }
-
+.mini {
+margin-left: 24px;
+}
 .min-rectangle {
-height: 150px;
-width: 130px;
-background-color: #dcdcdc;
-margin-top: 20px;
-margin-left: 20px;
+margin-top: 10px;
+margin-right: 10px;
 display: inline-block;
 }
 .min-left {
@@ -79,7 +104,7 @@ bottom: 0;
 height: 200px;
 width: 365px;
 background-color: #dcdcdc;
-margin-top: 20px;
+margin-top: 40px;
 margin-left: 20px;
 float: left;
 }
@@ -104,14 +129,49 @@ width: 300px;
 height: 175px;
 display: inline-block;
 margin-right: 25px;
+vertical-align: top;
+}
+.leftbottom .qw-2 {
+background-color: #777777;
+width: 300px; 
+height: 175px;
+display: inline-block;
+margin-right: 25px;
+vertical-align: top;
+}
+.leftbottom .qw ul {
+color: white;
+list-style-type: none;
+}
+.underright ul li {
+padding-right: 70px;
+}
+.qw ul li {
+margin-top: 3px;
+}
+.qw-2 ul li {
+margin-top: 3px;
+color: white;
 }
 .rightbottom {
-width: 305px;
-margin-right: 0px;
+width: 95px;
+margin-right: 205px;
+float: right;
 }
 .rightbottom .er {
 background-color: #777777;
-width: 300px; 
-height: 70px;
-margin-bottom: 30px;
+width: 308px; 
+height: 76px;
+margin-bottom: 23px;
+}
+.underleft {
+float: left;
+padding-left: 25px;
+display: inline-block;
+}
+.underright {
+float: right;
+}
+.underthird {
+clear: both;
 }
