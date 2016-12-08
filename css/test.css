@@ -1,179 +1,223 @@
 h2 {
-font-size:15px;
-color: white;
-padding-top: 23px;
-padding-left: 10px;	
-font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 23px;
+    padding-left: 10px;
+    font-weight: bold;
 }
+
 p {
-padding-left: 10px;
-color: white;
+    /* padding-left: 10px; */
+
+    color: white;
 }
+
 h1 {
-padding-top: 25px;
-padding-left: 20px;
-font-size: 15px; 
-font-weight: bold;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
 }
+
 hr {
-margin-top: 22px;
-margin-bottom: 22px;
+    margin-top: 22px;
+    margin-bottom: 22px;
 }
+
 .container {
-margin-left: auto;
-margin-right: auto;
-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
 }
+
 .square {
-background-color: #777777;
-height: 108px;
-display: inline-block;
-margin: 25px 25px 20px 0;
-vertical-align: top;
+    background-color: #777777;
+    height: 108px;
+    display: inline-block;
+    margin: 25px 25px 20px 0;
+    vertical-align: top;
 }
+
 .square:last-child {
-margin-right: 0;
+    margin-right: 0;
 }
 
 .second {
-width: 275px;
+    width: 275px;
 }
+
 .third {
-width: 500px;
-padding-right: 13px;
+    width: 500px;
+    padding-right: 13px;
 }
+
 .third p {
-padding-right: 25px;
-text-align: right;
-margin-top: 15px;
-text-decoration: underline;
+    /* padding-right: 25px; */
+
+    /* text-align: right; */
+
+    /* margin-top: 15px; */
+
+    /* text-decoration: underline; */
 }
+
 .text {
-text-decoration: underline;
+    text-decoration: underline;
 }
+
 hr {
-background-color: #696969;
+    background-color: #696969;
 }
+
 .left {
-width: 185px;
-display: inline-block;
-vertical-align: top;
-position: relative;
-height: 800px;
+    width: 185px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: 800px;
 }
+
 .center {
-width: 770px;
-display: inline-block;
+    width: 770px;
+    display: inline-block;
 }
+
 .rectangle {
-background-color: #777777;
-width: 185px;
-margin-top: 20px;
-padding-bottom: 68px;
+    background-color: #777777;
+    width: 185px;
+    margin-top: 20px;
+    padding-bottom: 68px;
 }
-.left .rectangle ul li{
-list-style-type: none;
-color: white;
-width: 150px;
-margin-bottom: 10px;
-font-size: 14px;
+
+.left .rectangle ul li {
+    list-style-type: none;
+    color: white;
+    width: 150px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
+
 .left .rectangle ul {
-padding-left: 10px;
+    padding-left: 10px;
 }
+
 .rectangle-sec {
-height: 208px;
-width: 753px;
-background-color: #dcdcdc;
-margin-left: 24px;
+    height: 208px;
+    width: 753px;
+    background-color: #dcdcdc;
+
+    /* margin-left: 24px; */
 }
+
 .mini {
-margin-left: 24px;
+    /* margin-left: 24px; */
 }
+
 .min-rectangle {
-margin-top: 10px;
-margin-right: 10px;
-display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
 }
+
 .min-left {
-height: 130px;
-width: 185px;
-background-color: #777777;
-position: absolute;
-bottom: 0;
+    height: 130px;
+    width: 185px;
+    background-color: #777777;
+    position: absolute;
+    bottom: 0;
 }
+
 .bottom {
-height: 200px;
-width: 365px;
-background-color: #dcdcdc;
-margin-top: 40px;
-margin-left: 20px;
-float: left;
+    height: 200px;
+    width: 365px;
+    background-color: #dcdcdc;
+    margin-top: 40px;
+
+    /* margin-left: 20px; */
+
+    float: left;
 }
+
 .bottom p {
-padding-top: 23px;
-padding-left: 18px;
-color: #777777;
+    padding-top: 23px;
+    padding-left: 18px;
+    color: #777777;
 }
+
 .bottom-one {
-width: 770px;
+    width: 770px;
 }
+
 .under {
-width: 100%;
+    width: 100%;
 }
+
 .leftbottom {
-width: 660px;
-display: inline-block;
+    width: 660px;
+    display: inline-block;
 }
+
 .leftbottom .qw {
-background-color: #777777;
-width: 300px; 
-height: 175px;
-display: inline-block;
-margin-right: 25px;
-vertical-align: top;
+    background-color: #777777;
+    width: 300px;
+    height: 175px;
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: top;
 }
+
 .leftbottom .qw-2 {
-background-color: #777777;
-width: 300px; 
-height: 175px;
-display: inline-block;
-margin-right: 25px;
-vertical-align: top;
+    background-color: #777777;
+    width: 300px;
+    height: 175px;
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: top;
 }
+
 .leftbottom .qw ul {
-color: white;
-list-style-type: none;
+    color: white;
+    list-style-type: none;
 }
+
 .underright ul li {
-padding-right: 70px;
+    padding-right: 70px;
 }
+
 .qw ul li {
-margin-top: 3px;
+    margin-top: 3px;
 }
+
 .qw-2 ul li {
-margin-top: 3px;
-color: white;
+    margin-top: 3px;
+    color: white;
 }
+
 .rightbottom {
-width: 95px;
-margin-right: 205px;
-float: right;
+    /* width: 95px; */
+
+    /* margin-right: 205px; */
+
+    float: right;
 }
+
 .rightbottom .er {
-background-color: #777777;
-width: 308px; 
-height: 76px;
-margin-bottom: 23px;
+    background-color: #777777;
+    width: 308px;
+    height: 76px;
+    margin-bottom: 23px;
 }
+
 .underleft {
-float: left;
-padding-left: 25px;
-display: inline-block;
+    float: left;
+    padding-left: 25px;
+    display: inline-block;
 }
+
 .underright {
-float: right;
+    float: right;
 }
+
 .underthird {
-clear: both;
+    clear: both;
 }
