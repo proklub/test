@@ -34,7 +34,10 @@ vertical-align: top;
 .square:last-child {
 margin-right: 0;
 }
-
+.first img {
+width: 120px;
+height: 105px;
+}
 .second {
 width: 275px;
 }
@@ -59,17 +62,23 @@ width: 185px;
 display: inline-block;
 vertical-align: top;
 position: relative;
-height: 800px;
+height: 868px;
 }
 .center {
-width: 770px;
+width: 750px;
 display: inline-block;
+margin-left: 24px;
 }
 .rectangle {
 background-color: #777777;
 width: 185px;
 margin-top: 20px;
 padding-bottom: 68px;
+}
+.center .rectangle ul {
+padding-left: 40px;
+padding-top: 30px;
+list-style-type: square;
 }
 .left .rectangle ul li{
 list-style-type: none;
@@ -85,20 +94,28 @@ padding-left: 10px;
 height: 208px;
 width: 753px;
 background-color: #dcdcdc;
-margin-left: 24px;
-}
-.mini {
-margin-left: 24px;
 }
 .min-rectangle {
 margin-top: 10px;
 margin-right: 10px;
 display: inline-block;
 }
-.min-left {
+.min-rectangle img {
+height: 150px;
+width: 130px;
+}
+.fifth-img {
+margin-right: 0px;
+}
+.mini:ntn-child(5n) {
+margin-right: 0px;
+}
+.min-rectangle:ntn-child(5n) {
+margin-right: 0px;
+}
+.min-left img {
 height: 130px;
 width: 185px;
-background-color: #777777;
 position: absolute;
 bottom: 0;
 }
@@ -106,24 +123,29 @@ bottom: 0;
 height: 200px;
 width: 365px;
 background-color: #dcdcdc;
-margin-top: 40px;
-margin-left: 20px;
+margin-top: 46px;
+margin-right: 20px;
 float: left;
 }
 .bottom p {
 padding-top: 23px;
 padding-left: 18px;
+padding-right: 18px;
 color: #777777;
 }
 .bottom-one {
 width: 770px;
+clear: both;
 }
 .under {
 width: 100%;
 }
 .leftbottom {
-width: 660px;
-display: inline-block;
+width: 652px;
+float: left
+}
+footer .container .row {
+clear: both;
 }
 .leftbottom .qw {
 background-color: #777777;
@@ -145,19 +167,32 @@ vertical-align: top;
 color: white;
 list-style-type: none;
 }
-.underright ul li {
-padding-right: 70px;
+.column {
+-webkit-column-width: 80px;
+column-width: 80px;
+-webkit-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 30px;
+column-gap: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
+
 .qw ul li {
-margin-top: 3px;
+padding-top: 7px;
+padding-left:18px;
+}
+.qw-2 ul {
+padding-top: 15px;
+padding-left: 40px;
+list-style-type: square;
 }
 .qw-2 ul li {
-margin-top: 3px;
 color: white;
+padding-bottom: 7px;
 }
 .rightbottom {
-width: 95px;
-margin-right: 205px;
+width: 308px;
 float: right;
 }
 .rightbottom .er {
@@ -165,15 +200,4 @@ background-color: #777777;
 width: 308px; 
 height: 76px;
 margin-bottom: 23px;
-}
-.underleft {
-float: left;
-padding-left: 25px;
-display: inline-block;
-}
-.underright {
-float: right;
-}
-.underthird {
-clear: both;
 }
